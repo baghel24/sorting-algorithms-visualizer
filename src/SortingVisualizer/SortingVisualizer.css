@@ -1,0 +1,119 @@
+
+body{
+    background: black;
+}
+  .buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .array-container1 {
+    position: absolute;
+  
+    left: 100px;
+    top: 100px;
+  }
+  .array-container {
+    position: absolute;
+    /* background-color:#e8f5e5; */
+    left: 100px;
+  
+  }
+  
+  .array-bar {
+    width: 1.5px;
+    display: inline-block;
+    margin: 0 1px;
+  }
+  .array-bar1 {
+    width: 1.5px;
+    display: inline-block;
+    margin: 0 1px;
+  }
+  /* .left{
+    margin-left: 1030px;
+    margin-top: 50px;
+  } */
+  h1{
+    color: #2f8b13;
+  }
+  h3{
+    color: #fcfcfc;
+  }
+  table {
+    /* border-collapse: collapse; */
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    
+  
+  }
+  th {
+    color: whitesmoke;
+    padding: 8px;
+    background-color:#42922a;
+  
+  }
+  
+  tr:nth-child(even) {
+    background-color: #d2f8c6;
+  }
+  tr:nth-child(odd) {
+    background-color: #a9e796;
+  }
+  .oval1 {
+    height: 20px;
+    width: 50px;
+    background-color: #39FF14;
+    border-radius: 40%;
+  }
+  .oval2 {
+    height: 20px;
+    width: 50px;
+    background-color: #f5c645;
+    border-radius: 40%;
+  }
+  .oval3 {
+    height: 20px;
+    width: 50px;
+    background-color: #69e7f8;
+    border-radius: 40%;
+  }
+  .oval4 {
+    height: 20px;
+    width: 50px;
+    background-color: #2e0cee;
+    border-radius: 40%;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-right: 1.5px;
+    padding: 8px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #42922a;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #1b500b}
+  
+  .button:active {
+    background-color: #4c9c34;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
